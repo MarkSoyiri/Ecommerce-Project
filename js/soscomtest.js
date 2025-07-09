@@ -27,3 +27,16 @@ gotologin.onclick = function (){
     loginform.classList.add('swapDisplay')
 }
 
+
+let solution = document.getElementById('solution')
+let solution_dropdown = document.getElementById('solution_dropdown')
+let navy = document.getElementById('navy')
+
+
+solution.onclick = function (){
+    solution_dropdown.classList.remove('pos')
+    solution_dropdown.classList.toggle('drop')
+    
+    navy.classList.toggle('nav_back')
+}
+

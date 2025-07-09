@@ -14,7 +14,7 @@ body{
     height: 110vh;
     background-color: rgba(57, 50, 50, 0.17);
     color: white;
-    display: flex;
+    display: flex;  
     justify-content: center;
     position: relative;
     overflow: hidden;
@@ -37,7 +37,14 @@ body{
     display: flex;
     justify-content: space-around;
     font-size: 18px;
+    position: fixed;
+    top: 0;
+    z-index: 2;
 
+}
+.nav_back{
+    background-color: black;
+    transition: 0.1s ease-in;
 }
 .side1{
     display: flex;
@@ -57,7 +64,14 @@ body{
     text-decoration: none;
     color: white;
 }
+.side1 p{
+    text-decoration: none;
+    color: white;
+}
 .side1 a:hover {
+    text-decoration: underline;
+}
+.side1 p:hover {
     text-decoration: underline;
 }
 .side2{
@@ -282,8 +296,7 @@ fieldset .placeholder{
     
 }
 .whysoscom:hover img{
-    /* width: 20px;
-    transition:ease-in-out 0.5s; */
+    
     animation-play-state: running;
 }
 
@@ -303,6 +316,7 @@ section{
     justify-content: space-around;
     align-items: center;
     overflow: hidden;
+    /* z-index: -1; */
      
 }
 .container{
@@ -374,8 +388,6 @@ section{
     margin-bottom: 40px;
     gap: 30px;
     padding: 30px;
-    ;
-    
 }
 
 
@@ -530,7 +542,7 @@ section{
     
 }
 .pap{
-    border: 2px solid white;
+    /* border: 2px solid white; */
     padding: 18px;
     border-radius: 30px ;
     font-size: large;
@@ -566,7 +578,7 @@ section{
     justify-content: space-around;
     margin-top: 30px;
     margin-bottom: 20px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     position: relative;
 }
 .container_bg div h1{
@@ -580,10 +592,10 @@ section{
 }
 
 .video_box{
-    margin-top: 20px;
+    margin:40px;
     padding: 10px;
-    border: 1px solid red;
-    width: 100%;
+    /* border: 1px solid red; */
+    width: auto;
     height: auto;
     position: relative;
     
@@ -592,8 +604,8 @@ section{
 }
 .video{
     position: relative;
-    left: 104px;
-    width:86%;
+    left: 1px;
+    width:100%;
     /* height: 90vh; */
     height: 100%;
     /* border: 1px solid yellow; */
@@ -602,7 +614,7 @@ section{
 
 }
 .spacing{
-    border: 1px solid rgb(141, 232, 105);
+    /* border: 1px solid rgb(141, 232, 105); */
     margin-top: 10px;
     width: 100%;
     padding: 20px;
@@ -666,7 +678,7 @@ section{
 .stext{
     width: 100%;
     padding: 30px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -687,7 +699,7 @@ section{
 .main_container{
     margin-top: 20px ;
     margin-bottom: 40px;
-    border: 1px solid green;
+    /* border: 1px solid green; */
     padding: 10px;
     width: auto;
     height: auto;
@@ -785,10 +797,13 @@ section{
      
 }
 .boxy{
+    /* border: 1px solid white; */
+    padding-left:80px;
+    padding-right:80px;
     display: flex;
 }
 .first_text{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     padding: 30px;
     margin-bottom: 40px;
 }
@@ -797,12 +812,14 @@ section{
     font-weight: 50;
 }
 .bulk_text{
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
     width:auto;
     height: auto;
+    margin: 0px ;
     position: relative;
 }
-.second_text{ border: 1px solid blue;
+.second_text{ 
+    /* border: 1px solid blue; */
     padding: 50px;
     display: flex;
 
@@ -812,7 +829,7 @@ section{
     margin-bottom: 50px;
 }
 .sides{
-    border: 1px solid green;
+    /* border: 1px solid green; */
     padding: 20px;
     width: 50%;
     display: flex;
@@ -820,11 +837,14 @@ section{
     row-gap: 10px;
 }
 .top{
+    border-top: 1px solid rgba(64, 60, 60, 0.833);
+    padding-top: 10px;
     display: flex;
     justify-content: center;
     column-gap: 15px;
     color: rgba(167, 203, 167, 0.715);
 }
+
 .bottom{
     display: flex;
     justify-content: center;
@@ -841,7 +861,7 @@ section{
     font-weight: 50;
     position: absolute;
     top: 3px;
-    right: 55px;
+    right: 60px;
     
 }
 .third_line{
@@ -854,12 +874,18 @@ section{
     color: rgba(161, 155, 155, 0.952);
 
 }
+.third_line p a{
+    color: rgba(161, 155, 155, 0.952);
+}
+.third_line p a:hover{
+    text-decoration: none;
+}
 .vertical_line{
-    width: 2px;
+    width: 3px;
     height: 60px;
     background-color: rgba(89, 191, 89, 0.814);
-    margin-right: 20px;
-    /* margin-left: 10px; */
+    margin-right: 15px;
+    
     
 }
 .final_line{
@@ -926,7 +952,7 @@ section{
 .section3 .main_container{
     margin-top: 20px ;
     margin-bottom: 80px;
-    border: 1px solid green;
+    /* border: 1px solid green; */
     padding: 10px;
     width: auto;
     height: auto;
@@ -952,7 +978,7 @@ section{
      
 }
 .section4 .bulk_text{
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
     padding: 10px;
     margin-bottom: 80px;
     column-gap: 70px;
@@ -962,7 +988,7 @@ section{
     display: flex;
 }
 .section4 .bottom{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     margin-right: 10px;
     width: 600px;
     display: flex;
@@ -971,7 +997,7 @@ section{
     position: relative;
 }
 .first_img{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin-top: 40px;
     margin-bottom: 40px;
     height: 470px;
@@ -996,7 +1022,7 @@ section{
     align-items: end;
 }
 .section4 .bottom_M{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     width: auto;
     padding: 5px;
     display: flex;
@@ -1066,8 +1092,8 @@ footer{
     align-items: center;
 }
 .overall{
-    border: 1px solid blue;
-    width: 1300px;
+    /* border: 1px solid blue; */
+    width: 1400px;
     margin-bottom: 60px;
     padding:10px;
     color: white;
@@ -1076,19 +1102,25 @@ footer{
     
     align-items: start;
 }
+.overall img{
+    margin-right: 30px;
+    margin-left: 30px;
+}
 .f_box{
-    border: 1px solid red;
-    width: 1200px;
+    /* border: 1px solid red; */
+    width: auto;
+    margin-left: 100px;
     margin-bottom: 30px;
     display: flex;
     flex-wrap: wrap;
+    /* column-gap: 30px; */
     row-gap: 80px;
     font-size: large;
 
 }
 .f_box .list{
-    padding-right: 80px;
-    margin-right: 80px;
+    padding-right: 50px;
+    /* margin-right: 50px; */
     margin-bottom: 30px;
     display: flex;
     row-gap: 20px;
@@ -1109,10 +1141,10 @@ footer{
     text-decoration: underline;
 }
 .overall_b{
-    border: 1px solid blue;
+    border-top: 1px solid rgb(59, 57, 57);
     width: 1300px;
-    margin-bottom: 60px;
-    padding:10px;
+    margin-bottom: 50px;
+    padding-top:50px;
     color: white;
     display: flex;
     column-gap: 10px;
@@ -1122,31 +1154,30 @@ footer{
     align-items: start;
 }
 .usa{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
-    column-gap: 5px;
+    align-items: center;
+    column-gap: 4px;
     width: auto;
+    padding: 10px;
 }
-.lef{
-    border: 1px solid yellow;
-    width: 100px;
-}
-.overall_b .lef{
-    width: 15px;
-    height: 15px;
+
+.usa .lef{
+    /* border: 1px solid yellow; */
+    width: auto;
+    width: 20px;
+    height: 20px;
     background-color: white;
     border-radius: 25px;
 }
-.overall_b img{
-      
-}
+
 .vl{
     width: 1px;
-    height: 18px;
+    height: 20px;
     background-color: white;
 }
 .usa p a{
-    margin-right: 50px;
+    margin-right: 10px;
     color: white;
     text-decoration: none;
 }
@@ -1154,16 +1185,20 @@ footer{
     text-decoration: underline;
 }
 .usa_r{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     column-gap: 5px;
     width: auto;
     height: auto;
+    margin-left: 80px;
 }
 .usa_r .lef{
-    width: 35px;
-    height: 35px;
+    width: 40px;
+    height: 40px;
     background-color: white;
-    border-radius: 25px;
-    margin-right: 10px;
+    border-radius: 30px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

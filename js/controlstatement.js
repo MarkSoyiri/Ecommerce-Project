@@ -56,11 +56,127 @@ let canVote = age >= 18;
 //     console.log('');
 // }
 
-let person = 15;
+// let person = 15;
 
-person >= 30 ? console.log('Highest share'): '';
-person < 30 && person >= 18 ? console.log('Second highest share'): '';
-person < 18 ? console.log('Lowest share') : '';
+// person >= 30 ? console.log('Highest share'): '';
+// person < 30 && person >= 18 ? console.log('Second highest share'): '';
+// person < 18 ? console.log('Lowest share') : '';
+
+// let firstnumber = parseInt(prompt("Enter first number"));
+// let secondnumber = parseInt(prompt("Enter second number"));
+// let thirdnumber = parseInt(prompt("Enter third number"));
+
+// let test_firstnumber = firstnumber > secondnumber && firstnumber > thirdnumber;
+// let test_secondnumber = secondnumber > firstnumber && secondnumber > thirdnumber;
+// let test_thirdnumber =  thirdnumber > firstnumber && thirdnumber > secondnumber;
+
+// if(test_firstnumber){
+
+//     alert("The first is the greatest")
+// } else if(test_secondnumber){
+
+//     alert("The second is the greatest")
+// } else if(test_thirdnumber){
+   
+//     alert("The second is the greatest")
+// }else{
+//     alert("wrong input")
+// }
+
+
+
+// let president = prompt("President password");
+// let vice = prompt("Vice President password");
+// let speaker = prompt("speaker password");
+// let justice = prompt("justice password");
+
+// let DB_president = "1"
+// let DB_vice = "2"
+// let DB_speaker = "3";
+// let DB_justice = "4"
+
+// let t_president = president == DB_president && vice == DB_vice ||president == DB_president && speaker == DB_speaker||president == DB_president && justice == DB_justice;
+// let t_vice = vice == DB_vice && president == DB_president ||vice == DB_vice && speaker == DB_speaker||vice == DB_vice && justice == DB_justice;
+// let t_speaker =speaker == DB_speaker && president == DB_president ||speaker == DB_speaker && vice == DB_vice ||speaker == DB_speaker && justice == DB_justice;
+// let t_justice =justice == DB_justice && president == DB_president ||justice == DB_justice && vice == DB_vice || justice == DB_justice && speaker == DB_speaker; 
+
+// if (t_president) {
+//     alert("Access Granted")
+    
+// } else if(t_vice) {
+//     alert("Access Granted")
+// } else if(t_speaker){
+//     alert("Access Granted")
+// } else if(t_justice){
+//     alert("Access Granted")
+// } else{
+//     alert("Access Denied")
+// }
+
+// let president = prompt("President password");
+// let vice = prompt("Vice President password");
+// let speaker = prompt("speaker password");
+// let justice = prompt("justice password");
+
+// let DB_president = "1";
+// let DB_vice = "2";
+// let DB_speaker = "3";
+// let DB_justice = "4";
+
+// let t_president = president == DB_president
+// let t_vice =  president == DB_president && vice == DB_vice
+// let t_speaker = president == DB_president && speaker == DB_speaker
+// let t_justice = president == DB_president && justice == DB_justice
+
+// if(t_president){
+
+//     alert("Access Granted")
+// } else if(t_vice){
+
+//     alert("Access Granted")
+// } else if(t_speaker){
+
+//    alert("Access Granted") 
+// } else if(t_justice){
+
+//     alert("Access Granted")
+// }else{
+
+//     alert("Access Denied")
+// }
+
+
+
+
+// let president = prompt("President password");
+// let vice = prompt("Vice President password");
+// let speaker = prompt("speaker password");
+// let justice = prompt("justice password");
+
+// let DB_president = "1"
+// let DB_vice = "2"
+// let DB_speaker = "3";
+// let DB_justice = "4"
+
+// let t_president = president == DB_president && vice == DB_vice ||president == DB_president && speaker == DB_speaker||president == DB_president && justice == DB_justice;
+// // let t_vice = vice == DB_vice && president == DB_president ||vice == DB_vice && speaker == DB_speaker||vice == DB_vice && justice == DB_justice;
+// // let t_speaker =speaker == DB_speaker && president == DB_president ||speaker == DB_speaker && vice == DB_vice ||speaker == DB_speaker && justice == DB_justice;
+// // let t_justice =justice == DB_justice && president == DB_president ||justice == DB_justice && vice == DB_vice || justice == DB_justice && speaker == DB_speaker; 
+
+// if (t_president) {
+//     alert("Access Granted")
+    
+// } else if(t_vice) {
+//     alert("Access Granted")
+// } else if(t_speaker){
+//     alert("Access Granted")
+// } else if(t_justice){
+//     alert("Access Granted")
+// } else{
+//     alert("Access Denied")
+// }
+
+ 
 
 
 
@@ -73,3 +189,154 @@ person < 18 ? console.log('Lowest share') : '';
 // firstgreat ? console.log('Higest share') :'';
 // secondgreat ? console.log('Second Highest share') :'';
 // thirdgreat ? console.log('Lowest share') :'';
+
+        //  SWITCH    //
+// switch (userinput) {
+//         case "1": console.log("You entered 1")
+            
+//             break;
+    
+//         case "2": console.log("You entered 2")
+            
+//             break;
+
+//         case "3": console.log("You entered 3")
+            
+//             break;
+
+//         case "x": console.log("Exiting the Game")
+            
+//             break;
+//         default: console.log("Invalid option")
+//             break;
+// }
+
+
+
+//         //WHILE LOOP
+// while (condition) {
+    
+// }
+
+//             // DO WHILE LOOP  AND SWITCH //
+//             // DO WHILE//
+//             do {
+                
+//             } while (condition);
+
+//             // DO WHILE LOOP  AND SWITCH // while condition must be false to break the loop
+// var userinput 
+// do {
+//     userinput = prompt("Enter x to exit");
+//     switch (userinput) {
+//         case "1": console.log("You entered 1")
+            
+//             break;
+    
+//         case "2": console.log("You entered 2")
+            
+//             break;
+
+//         case "3": console.log("You entered 3")
+            
+//             break;
+
+//         case "x": console.log("Exiting the Game")
+            
+//             break;
+//         default: console.log("Invalid option")
+//             break;
+//     }
+    
+// } while (userinput != "x");
+
+//         //FORIN LOOP
+// for (const key in object) {
+//     if (Object.prototype.hasOwnProperty.call(object, key)) {
+//         const element = object[key];
+        
+//     }
+// }
+
+//         //FOR EACH LOOP
+// array.forEach(element => {
+    
+// });
+
+// let day = 8;
+
+// switch (day) {
+//     case 1:
+//         console.log("Today is Monday")
+//         break;
+//     case 2:
+//         console.log("Today is Tuesday")
+//         break;
+//     case 3:
+//         console.log("Today is Wednesday")
+//         break;
+//     case 4:
+//         console.log("Today is Thursday")
+//         break;
+//     case 5:
+//         console.log("Today is Friday")
+//         break;
+//     case 6:
+//         console.log("Today is Saturday")
+//         break;
+//     case 7:
+//         console.log("Today is Sunday")
+//         break;
+//     default:
+//         console.log("is not a day")
+//         break;
+// }
+
+
+
+// let myarray = [1,2,3,4,5]
+
+const Engineers = [
+{
+    name:"Mark",
+    age:21,
+    gender:"Male",
+    height:"10ft"
+},{
+    name:"Michelle",
+    age:21,
+    gender:"Female",
+    height:"5.5ft"
+},{
+    name:"George",
+    age:21,
+    gender:"Male",
+    height:"5.8ft"
+},{
+    name:"Michael",
+    age:23,
+    gender:"Male",
+    height:"5.56ft"
+}
+    
+
+]
+
+console.log(Engineers)
+for (let index = 0; index < Engineers.length; index++ ) {
+    const element = Engineers[index]
+    console.log(element.age)
+    console.log(element.gender)
+    console.log(element.height)
+    console.log(element.name)
+    
+}
+
+
+
+
+// for (let i=-400 /*initial*/; i >=-1000 /*condition*/; i=i-1 /*update*/) {
+    
+//     console.log(i)
+    
+// }

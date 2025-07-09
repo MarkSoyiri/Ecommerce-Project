@@ -1,0 +1,110 @@
+.solution_Menu{
+    border: 1px solid red;
+    width: 100%;
+    height: auto;
+    padding-left: 150px;
+    padding-bottom: 100px;
+    margin-bottom: 100px;
+    background-color: black;
+    position: absolute;
+    top: 70px;
+    z-index: 1;
+    display: none;
+    flex-direction: column;
+    /* transition: 0.5s ease-in-out; */
+}
+.arrange_row{
+    display: flex;
+}
+.super{
+    border: 1px solid yellow;
+    width: 350px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+.top_layer{
+    border-bottom: 1px solid rgba(94, 90, 90, 0.714);
+    width: 300px;
+    column-gap: 10px;
+    padding: 10px;  
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    font-size: larger;
+    font-weight: 100;
+    
+}
+.pic_box{
+    border: 1px solid purple;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 30px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text_area{
+    border: 1px solid white;
+    width:fit-content;
+    color: white;
+    
+}
+.text_area a{
+    text-decoration: none;
+}
+.text_area a h3{
+    font-weight: 50;
+    font-size: larger;
+    color: white;
+}
+.text_area a p{
+    color: rgb(161, 157, 157);
+}
+
+.text_area:hover p{
+    color: white;
+    transition: 0.1s ease-in-out;
+}
+.bottom_foot{
+    
+    margin-top: 50px;
+    border-top: 1px solid rgba(94, 90, 90, 0.714);
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    z-index: 2;
+    position: sticky;
+    /* bottom: 50px; */
+}
+.bottom_foot .top_layer{
+    border-right: 3px solid rgba(94, 90, 90, 0.714);
+    border-bottom: none;
+    width: 300px;
+    column-gap: 10px;
+    padding: 10px;  
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    font-size: larger;
+    font-weight: 100;
+}
+.bottom_foot .top_layer .text_area h3{
+    font-size: 20px;
+    font-weight: 100;
+}
+.bottom_foot .top_layer .text_area p{
+    font-size: 16px;
+    font-weight: 100;
+}
+.bottom_foot #third{
+    border: none;
+}
+.drop{
+    display: flex;
+    transition: 0.5s ease-in-out;
+}
