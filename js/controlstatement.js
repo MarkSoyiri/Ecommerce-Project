@@ -296,41 +296,41 @@ let canVote = age >= 18;
 
 // let myarray = [1,2,3,4,5]
 
-const Engineers = [
-{
-    name:"Mark",
-    age:21,
-    gender:"Male",
-    height:"10ft"
-},{
-    name:"Michelle",
-    age:21,
-    gender:"Female",
-    height:"5.5ft"
-},{
-    name:"George",
-    age:21,
-    gender:"Male",
-    height:"5.8ft"
-},{
-    name:"Michael",
-    age:23,
-    gender:"Male",
-    height:"5.56ft"
-}
+// const Engineers = [
+// {
+//     name:"Mark",
+//     age:21,
+//     gender:"Male",
+//     height:"10ft"
+// },{
+//     name:"Michelle",
+//     age:21,
+//     gender:"Female",
+//     height:"5.5ft"
+// },{
+//     name:"George",
+//     age:21,
+//     gender:"Male",
+//     height:"5.8ft"
+// },{
+//     name:"Michael",
+//     age:23,
+//     gender:"Male",
+//     height:"5.56ft"
+// }
     
 
-]
+// ]
 
-console.log(Engineers)
-for (let index = 0; index < Engineers.length; index++ ) {
-    const element = Engineers[index]
-    console.log(element.age)
-    console.log(element.gender)
-    console.log(element.height)
-    console.log(element.name)
+
+// for (let index = 0; index < Engineers.length; index++ ) {
+//     const element = Engineers[index]
+//     console.log(element.age)
+//     console.log(element.gender)
+//     console.log(element.height)
+//     console.log(element.name)
     
-}
+// }
 
 
 
@@ -340,3 +340,82 @@ for (let index = 0; index < Engineers.length; index++ ) {
 //     console.log(i)
     
 // }
+
+
+
+const Students = [
+{
+    name:"Max",
+    class:"1A",
+    fav_subject:"Physics",
+    fav_food:"Gob3"
+},{
+    name:"Dennis",
+    class:"1A",
+    fav_subject:"English",
+    fav_food:"Gob3"
+},{
+    name:"Maxwell",
+    class:"2A",
+    fav_subject:"Science",
+    fav_food:"Gob3"
+},{
+    name:"James",
+    class:"6B",
+    fav_subject:"Maths",
+    fav_food:"Gob3"
+},{
+    name:"Paul",
+    class:"4A",
+    fav_subject:"RME",
+    fav_food:"Gob3"
+}
+]
+
+// for(index = 0; index <= Students.length; index += 1){
+//     const element= Students[index]
+
+//     console.log(element)
+//     // console.log(element.name)
+//     // console.log(element.class)
+//     // console.log(element.fav_food)
+//     // console.log(element.fav_subject)
+// }
+
+    //WHILE//
+
+// let index = 0
+// while (index < Students.length ) {
+//     const element = Students[index]
+//     console.log(element.name)
+//     console.log(element.class)
+    
+
+//     index = index += 1
+// }
+
+
+    // ARROW FUNCTION
+
+// Students.forEach( (person)=>{
+
+//     console.log(person.name)
+
+
+// })
+
+    //ANONYMOUS FUNCTION
+
+// Students.forEach(function (per){
+
+//     console.log(per)
+// })
+
+
+    //NAMED FUNCTION
+function student(data){
+    console.log(data)
+
+}
+
+Students.forEach(student)
