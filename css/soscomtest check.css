@@ -630,7 +630,7 @@ fieldset .placeholder{
 }
 .obox{
     border: none;
-    box-shadow: 0px 0px 3px 4px rgba(47, 46, 46, 0.441);
+    box-shadow: 0px 0px 3px 4px rgba(56, 55, 55, 0.704);
     border-radius: 25px;
     width: 385px;
     height: 600px;
@@ -642,7 +642,7 @@ fieldset .placeholder{
     align-items: center;
 }
 .gif_box{
-    border: 1px solid pink;
+    /* border: 1px solid pink; */
     height: auto;
     width: auto;
     margin-bottom: 10px;

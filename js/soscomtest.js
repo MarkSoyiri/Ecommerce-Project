@@ -33,6 +33,12 @@ let solution_dropdown = document.getElementById('solution_dropdown')
 let navy = document.getElementById('navy')
 
 
+navy.onclick = function(){
+    navy.classList.add('nav_back')
+}
+
+
+
 solution.onclick = function (){
     // solution_dropdown.classList.remove('pos')
 
@@ -40,7 +46,7 @@ solution.onclick = function (){
     resource_dropdown.classList.remove('drop')
     
     solution_dropdown.classList.toggle('drop')
-    navy.classList.add('nav_back')
+    // navy.classList.toggle('nav_back')
 }
 
 
@@ -50,11 +56,12 @@ let resource_dropdown = document.getElementById("resource_dropdown")
 resource.onclick = function (){
 
     
+    
     solution_dropdown.classList.remove('drop')
     whatsnew_dropdown.classList.remove('drop')
     resource_dropdown.classList.toggle('drop')
-    navy.classList.add('nav_back')
-
+    
+    // navy.classlist.toggle('navy_back')
 }
 
 let whatsnew = document.getElementById("whatsnew")
@@ -66,7 +73,8 @@ whatsnew.onclick = function (){
     solution_dropdown.classList.remove('drop')
     resource_dropdown.classList.remove('drop')
     whatsnew_dropdown.classList.toggle('drop')
-    navy.classList.add('nav_back')
+
+    // navy.classlist.toggle('navy_back')
 
 }
 
