@@ -7,8 +7,9 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.hero{
+.first_part{
     border: 1px solid blue;
+    background-image: linear-gradient(rgba(134, 232, 243, 0.733),rgba(236, 231, 231, 0.875));
     
     
     
@@ -90,6 +91,7 @@ body{
 }
 
 .plans_pricing{
+    margin-top: 50px;
     border: 1px solid red;
     width: auto;
     color: black;
@@ -108,21 +110,181 @@ body{
     padding-bottom: 5px;
 }
 .plans_pricing p{
-    padding-bottom: 50px;
+    padding-bottom: 30px;
     font-size: 22px;
     color: rgba(92, 90, 90, 0.851);
 }
 .put_email{
-    border: 1px solid yellow;
-    width: 700px;
+    border: 1px solid rgba(178, 173, 173, 0.941);
+    border-radius: 35px;
+    background-color: white;
+    width: 800px;
     height: auto;
     display:flex;
     justify-content: space-between;
+    align-items: center;
 }
 .put_email input{
-    width: 400px;
-    height: auto;
+    border:none;
+    border-radius: 35px;
+    margin: 5px;
+    width: 450px;
+    height: 15px;
     padding: 20px;
+    font-size: 17px;
     /* margin-right: 200px; */
 }
-.put_email 
+.put_email .startbox{
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    border-radius: 35px;
+    height: 40px;
+    width: 150px;
+    padding:8px;
+    font-size: 20px;
+}
+.put_email .startbox:hover {
+    background-color: rgba(46, 44, 44, 0.951);
+    transition: ease-in-out 0.2s;
+}
+.under-put_email{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* font-size: 10px; */
+}
+.under-put_email #top{
+    padding-top: 6px;
+    padding-bottom: 0px;
+    
+}
+.under-put_email p{
+    padding-bottom: 40px;
+    font-size: 17px;
+}
+
+.second_part{
+    border:1px solid orange;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+}
+.second_part .pill_space{
+    border: 1.6px solid rgba(145, 239, 62, 0.716) ;
+    width: auto;
+    height: 50px;
+    margin-top: 30px;
+    padding-left:5px;
+    padding-right:5px;
+    border-radius: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    column-gap: 5px;
+    margin-bottom: 30px;
+}
+.pill_space .sub_pill{
+    /* border: 1px solid blue; */
+    background-color: black;
+    color: white;
+    width: 180px;
+    height: 40px;
+    border-radius: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+button{
+    border: none;
+    background-color:white;
+    width: 180px;
+    height: 40px;
+    border-radius: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pill_space button:hover{
+    background-color: rgba(228, 225, 225, 0.888);
+    transition: 0.1s;
+}
+
+.second_part .long_pill_container{
+    border: 1px solid green;
+    padding: 10px;
+    width: auto;
+    display: flex;
+}
+.long_pill_container .long_pill{
+    border: 1px solid red;
+    width: 400px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    border-radius: 25px;
+}
+.long_pill h3{
+    border: 1px solid red;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 8px;
+    background-color: rgba(78, 241, 148, 0.9) ;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    font-weight: 400;
+    
+}
+.long_pill .basic_box{
+    /* border: 1px solid orange; */
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.basic_box span{
+    color: rgb(94, 92, 92);
+}
+.basic_mostpopular{
+    /* border: 1px solid blue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.basic_mostpopular #bas{
+    font-size: 30px;
+    font-weight: 400;
+}
+.basic_mostpopular span{
+    /* border: 1px solid black; */
+    width: 120px;
+    height: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    padding: 5px;
+    margin-left: 10px;
+    background-color: rgba(78, 241, 148, 0.9) ;
+    border-radius: 45px;
+    color: black;
+
+}
+#usd_per_month{
+    /* border: 1px solid blue; */
+    display: flex;
+    align-items: center;
+    
+}
+#usd_per_month #dollar{
+    font-size: 45px;
+    font-weight: 400;
+}
+.basic_box hr{
+    margin-top: 30px;
+    background-color: rgba(212, 205, 205, 0.679);
+}

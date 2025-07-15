@@ -46,8 +46,10 @@ solution.onclick = function (){
     resource_dropdown.classList.remove('drop')
     
     solution_dropdown.classList.toggle('drop')
-    // navy.classList.toggle('nav_back')
+    
+    console.log(navy.classList.toggle('nav_back'))
 }
+
 
 
 let resource = document.getElementById("resource")
@@ -61,7 +63,7 @@ resource.onclick = function (){
     whatsnew_dropdown.classList.remove('drop')
     resource_dropdown.classList.toggle('drop')
     
-    // navy.classlist.toggle('navy_back')
+    navy.classlist.toggle('navy_back')
 }
 
 let whatsnew = document.getElementById("whatsnew")
@@ -78,3 +80,4 @@ whatsnew.onclick = function (){
 
 }
 
+console.log('')
