@@ -8,7 +8,7 @@ body{
 }
 
 .first_part{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     background-image: linear-gradient(rgba(134, 232, 243, 0.733),rgba(236, 231, 231, 0.875));
     
     
@@ -84,6 +84,7 @@ body{
 }
 .side2 .startbox:hover {
     background-color: rgba(46, 44, 44, 0.951);
+    cursor: pointer;
     transition: ease-in-out 0.2s;
 }
 .side1 img:hover {
@@ -92,7 +93,7 @@ body{
 
 .plans_pricing{
     margin-top: 50px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: auto;
     color: black;
     display: flex;
@@ -146,6 +147,7 @@ body{
 }
 .put_email .startbox:hover {
     background-color: rgba(46, 44, 44, 0.951);
+    cursor: pointer;
     transition: ease-in-out 0.2s;
 }
 .under-put_email{
@@ -165,7 +167,7 @@ body{
 }
 
 .second_part{
-    border:1px solid orange;
+    /* border:1px solid orange; */
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -213,22 +215,24 @@ button{
 }
 
 .second_part .long_pill_container{
-    border: 1px solid green;
+    /* border: 1px solid green; */
     padding: 10px;
     width: auto;
     display: flex;
+    column-gap: 15px;
 }
 .long_pill_container .long_pill{
-    border: 1px solid red;
-    width: 400px;
-    height: 800px;
+    /* border: 1px solid red; */
+    width: auto;
+    height: auto;
+    box-shadow: 0px 2px 4px 1px rgba(178, 175, 175, 0.816);
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
     border-radius: 25px;
+    position: relative;
 }
-.long_pill h3{
-    border: 1px solid red;
+.long_pill #supa{
+    /* border: 1px solid red; */
     width: 100%;
     display: flex;
     justify-content: center;
@@ -248,6 +252,9 @@ button{
 }
 .basic_box span{
     color: rgb(94, 92, 92);
+}
+.basic_box h3{
+    font-weight: 400;
 }
 .basic_mostpopular{
     /* border: 1px solid blue; */
@@ -285,6 +292,128 @@ button{
     font-weight: 400;
 }
 .basic_box hr{
-    margin-top: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     background-color: rgba(212, 205, 205, 0.679);
+}
+#usd_per_month #tick{
+    padding-right: 10px;
+}
+#bill{
+    margin-bottom: 100px;
+}
+#bill #usd_per_month{
+    margin-top: 10px;
+}
+.long_pill #try_button_1{
+    /* border: 1px solid blue; */
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top:85px ; 
+    
+    
+}
+.long_pill #try_button_1:hover{
+    background-color: rgba(61, 59, 59, 0.96);
+    transition: 0.1s;
+    cursor: pointer;
+
+}
+.long_pill #try_button_2{
+    /* border: 1px solid blue; */
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top:55px ;  
+}
+.long_pill #try_button_2:hover{
+    background-color: rgba(61, 59, 59, 0.96);
+    transition: 0.1s;
+    cursor: pointer;
+
+}
+.long_pill #try_button_3{
+    /* border: 1px solid blue; */
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top:25px ;  
+}
+.long_pill #try_button_3:hover{
+    background-color: rgba(61, 59, 59, 0.96);
+    transition: 0.1s;
+    cursor: pointer;
+
+}
+.long_pill #try_button_4{
+    /* border: 1px solid blue; */
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 60px;  
+}
+.long_pill #try_button_4:hover{
+    background-color: rgba(61, 59, 59, 0.96);
+    transition: 0.1s;
+    cursor: pointer;
+
+}
+.long_pill .link{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    position: relative;
+    bottom: 40px;
+    
+}
+.long_pill .link a{
+    color: black;
+    font-size: 18px;
+}
+.long_pill .link a:hover{
+    text-decoration: none;
+    transition: 0.2s;
+}
+.long_pill #supa_plus{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 8px;
+    background-color: rgba(38, 98, 249, 0.9) ;
+    color: white;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    font-weight: 400;
+}
+.t_under_long_pill{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: rgb(122, 120, 120);
 }
