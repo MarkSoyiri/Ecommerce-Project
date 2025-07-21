@@ -212,6 +212,7 @@ body{
 
             /* END OF FIRST PART */
 
+                /* SECOND PART */
 .second_part{
     border: 1px solid red;
     width:auto ;
@@ -255,10 +256,25 @@ body{
 }
 .b2b_box .b2b{
     border: 1px solid black;
-    width: 400px;
+    width: 420px;
     height: auto;
     border-radius: 20px;
 }
+.b2b_box .b2b:hover{
+    background-color: rgba(251, 247, 227, 0.781);
+    box-shadow: 0px 0px 2px 2px rgba(220, 219, 219, 0.915);
+    transition: 0.2s;
+}
+.b2b_box .b2b:hover #arrow{
+    display: flex;
+    animation: right-arrow 0.2s ease-in-out ;
+}
+@keyframes right-arrow {
+   0%{
+    transform: translateX(-50%);
+   } 
+}
+
 .b2b img{
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -266,11 +282,19 @@ body{
     height: 250px;
     
 }
+ #arrow{
+    display: none;
+    border-radius: 0;
+    margin-left: 20px;
+    border: 1px solid red;
+    width: 25px;
+    height: 25px;
+}
 .text_box{
     border: 1px solid yellow;
     height: auto;
     padding-left: 20px;
-    margin-bottom: 30px;
+    /* margin-bottom: 10px; */
 }
 .text_box p{
     margin-bottom: 20px;
@@ -279,5 +303,89 @@ body{
     
     font-size: large;
     color: black;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
+    font-weight: 600;
+}
+.explore_arrow-box{
+    margin-top: 30px;
+    display: flex;
+}
+
+            /* END OF SECOND PART */
+
+            /* THIRD PART */
+
+.third_part{
+    border: 1px solid red;
+    width: auto;
+    height: auto;
+    background-color: rgb(136, 83, 83);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    ;
+
+}
+.third_part .flotty{
+    border: 1px solid red;
+    width:90%;
+    margin-top: 150px;
+}
+.third_part .flotty h3{
+    color: rgba(224, 250, 131, 0.773);
+
+}
+.third_part .flotty h2{
+    color:white;
+
+}
+.third_part .flotty p{
+    color:rgb(177, 171, 171);
+
+}
+.pic_circle{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: greenyellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pic_circle img{
+    width: 25px;
+    height: 25px;
+}
+.boxie{
+    border: 1px solid black;
+    width: 420px;
+    height: auto;
+}
+.text_area{
+    margin-top: 10px;
+    border: 1px solid blue;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.blox .text_area h3{
+    font-size: 25px;
+    font-weight: 500;
+    color: white;
+}
+.b2b_box .text_area p{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(197, 193, 193);
+    margin-bottom: 10px;
+}
+.blox{
+    border: 1px solid blue;
+    height: auto;
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 25px;
+    row-gap: 25px;
 }

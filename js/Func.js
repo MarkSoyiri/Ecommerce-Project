@@ -50,21 +50,18 @@ function SendData(event) {
 
     let Successful = SignIn(getData.email, getData.password)
 
-   if ( Successful = undefined) {
+   if ( Successful != undefined) {
 
      formbox.innerHTML = SignIn(getData.email, getData.password)
     
-   } else {
-
-     alert("Login Failed")
-    
-   }
+   } 
+   
    
 
-    // if (SignIn(getData.email, getData.password)==="undefined") {
-    //     alert("Not Found")
+//     if (SignIn(getData.email, getData.password)==="undefined") {
+//         alert("Not Found")
         
-    // }
+//     }
 }
 
 login.onclick = SendData
@@ -92,10 +89,6 @@ function SignIn(email, password) {
    }
 
 
-
-
-} 
-
 // for (let index = 0; index <= Engineers.length; index++) {
 //         const element = Engineers[index]
 
@@ -108,3 +101,8 @@ function SignIn(email, password) {
         
 //         } 
 //     }
+
+
+} 
+
+
