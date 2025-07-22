@@ -214,7 +214,7 @@ body{
 
                 /* SECOND PART */
 .second_part{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width:auto ;
     height:auto;
     padding-bottom: 70px;
@@ -230,7 +230,7 @@ body{
     
 }
 .second_part .flotty{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width:auto;
 }
 .flotty h3{
@@ -248,14 +248,14 @@ body{
     margin-bottom: 70px;
 }
 .b2b_box{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     height: auto;
     margin-bottom: 30px;
     display: flex;
     column-gap: 25px;
 }
 .b2b_box .b2b{
-    border: 1px solid black;
+    border: 1px solid rgba(169, 166, 166, 0.884);
     width: 420px;
     height: auto;
     border-radius: 20px;
@@ -286,12 +286,12 @@ body{
     display: none;
     border-radius: 0;
     margin-left: 20px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 25px;
     height: 25px;
 }
 .text_box{
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
     height: auto;
     padding-left: 20px;
     /* margin-bottom: 10px; */
@@ -316,18 +316,18 @@ body{
             /* THIRD PART */
 
 .third_part{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: auto;
     height: auto;
     background-color: rgb(136, 83, 83);
     display: flex;
     flex-direction: column;
     align-items: center;
-    ;
+    padding-bottom: 150px;
 
 }
 .third_part .flotty{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width:90%;
     margin-top: 150px;
 }
@@ -357,13 +357,13 @@ body{
     height: 25px;
 }
 .boxie{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 420px;
     height: auto;
 }
 .text_area{
     margin-top: 10px;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     height: auto;
     display: flex;
     flex-direction: column;
@@ -381,11 +381,243 @@ body{
     margin-bottom: 10px;
 }
 .blox{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     height: auto;
     margin-bottom: 30px;
     display: flex;
     flex-wrap: wrap;
     column-gap: 25px;
     row-gap: 25px;
+}
+            /* END OF THIRD PART */
+            /* FORTH PART  */
+#forth{
+    background-color: rgb(0, 255, 242);
+    height: auto;
+    position: relative;
+}
+#overlay{
+    position: absolute;
+    top:-120px ;
+}
+#over-box{
+    width: auto;
+    height: auto;
+    padding: 30px;
+    border-radius: 35px;
+    margin-bottom: 10px;
+    background-image: linear-gradient(rgb(116, 223, 189),rgb(193, 250, 194));
+}
+#over-box h2{
+    font-size: 35px;
+    font-weight: 400;
+}
+#over-box h3{
+    font-size: 30px;
+    font-weight: 400;
+}
+#over-box p{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(123, 120, 120);
+}
+#forth-flotty{
+    margin-top: 230px;
+}
+.vid-box{
+    border: 1px solid red;
+    width: 400px;
+    height: 500px;
+}
+#video{
+    width:50vw ;
+    height:60vh ;
+}
+.vert-box{
+    /* border: 1px solid white; */
+}
+#content-spacing{
+    column-gap: 80px;
+}
+#tt{
+    width: auto;
+    height: auto;
+    
+}
+#tt h3{
+    color: black;
+    
+}
+#tt p{
+    margin-bottom: 20px;
+    color: rgb(121, 116, 116);
+}
+.explore{
+    border: 2px solid black;
+    width: 170px;
+    height: auto;
+    padding: 10px;
+    border-radius: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
+}
+.explore a{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+.explore:hover{
+    box-shadow: inset 0px 0px 0.5px 1px;
+    transition: 0.1s;
+}
+            /* END OF FORTH PART */
+            /* START OF FIFTH PART */
+#fifth{
+    /* border: 1px solid black; */
+    background-image:linear-gradient(rgb(94, 5, 94),rgb(34, 34, 34));
+}
+#fifth-flotty{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#fifth-flotty p{
+    margin-bottom: 10px;
+}
+#fifth-flotty #Git{
+    background-color: rgb(255, 255, 161);
+    border: none;
+    margin-top: 15px;
+}
+#fifth-flotty #Git:hover{
+    background-color: greenyellow;
+    box-shadow: none;
+    transition: 0.2s;
+}
+            /* END OF FIFTH PART */
+            /* FOOTER */
+footer{
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.overall{
+    /* border: 1px solid blue; */
+    width: 1400px;
+    margin-bottom: 60px;
+    padding:10px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    
+    align-items: start;
+}
+.overall img{
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.f_box{
+    /* border: 1px solid red; */
+    width: auto;
+    margin-left: 100px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    /* column-gap: 30px; */
+    row-gap: 80px;
+    font-size: large;
+
+}
+.f_box .list{
+    padding-right: 50px;
+    /* margin-right: 50px; */
+    margin-bottom: 30px;
+    display: flex;
+    row-gap: 20px;
+}
+.f_box .list ul{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.f_box .list li{
+    list-style: none;
+}
+.f_box .list li a{
+    text-decoration: none;
+    color: rgb(215, 208, 208);
+}
+.f_box .list li a:hover{
+    text-decoration: underline;
+}
+.overall_b{
+    border-top: 1px solid rgb(59, 57, 57);
+    width: 1300px;
+    margin-bottom: 50px;
+    padding-top:50px;
+    color: white;
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+    justify-content: space-around;
+    font-size: larger;
+    align-items: start;
+}
+.usa{
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    column-gap: 4px;
+    width: auto;
+    padding: 10px;
+}
+
+.usa .lef{
+    /* border: 1px solid yellow; */
+    width: auto;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.vl{
+    width: 1px;
+    height: 20px;
+    background-color: white;
+}
+.usa p a{
+    margin-right: 10px;
+    color: white;
+    text-decoration: none;
+}
+.usa p a:hover{
+    text-decoration: underline;
+}
+.usa_r{
+    /* border: 1px solid red; */
+    display: flex;
+    column-gap: 5px;
+    width: auto;
+    height: auto;
+    margin-left: 80px;
+}
+.usa_r .lef{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 30px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

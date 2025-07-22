@@ -64,7 +64,7 @@ function SendData(event) {
 //     }
 }
 
-login.onclick = SendData
+// login.onclick = SendData
 
 
 
@@ -105,4 +105,79 @@ function SignIn(email, password) {
 
 } 
 
+let Products = [
+    {
+        image:"redbull.jpg",
+        name: "NIKE AIR",
+        price: 300,
+        colour: "Black"
+    }, {
+        image:"redbull.jpg",
+        name: "NIKE AIR",
+        price: 300,
+        colour: "Black"
+    }, {
+        image:"redbull.jpg",
+        name: "NIKE AIR",
+        price: 300,
+        colour: "Black"
+    }, {
+        image:"redbull.jpg",
+        name: "NIKE AIR",
+        price: 300,
+        colour: "Black"
+    }
+]
+var content = document.getElementById("content");
+let children = document.createElement("div")
 
+
+// Products.forEach(sell => {
+//     children.innerHTML = `<div class="big-box" id="content">
+//             <img src="images/${sell.image}" width="100%" height="50%">
+//             <h2>${sell.name}</h2>
+//             <h2>Ghc${sell.price}</h2>
+//             <h2>${sell.colour}</h2>
+//         </div>`
+    
+//         content.appendChild(children)
+//         children = document.createElement("div")
+// })
+
+
+// for (let index = 0; index < Products.length; index++) {
+//     const sell = Products[index];
+
+//      children.innerHTML = `<div class="big-box" id="content">
+//             <img src="images/${sell.image}" width="100%" height="50%">
+//             <h2>${sell.name}</h2>
+//             <h2>Ghc${sell.price}</h2>
+//             <h2>${sell.colour}</h2>
+//         </div>`
+    
+//         content.appendChild(children)
+//         children = document.createElement("div")
+    
+
+
+// }
+
+
+index = 0; 
+while (index < Products.length) {
+
+    const sell = Products[index];
+
+
+     children.innerHTML = `<div class="big-box" id="content">
+            <img src="images/${sell.image}" width="100%" height="50%">
+            <h2>${sell.name}</h2>
+            <h2>Ghc${sell.price}</h2>
+            <h2>${sell.colour}</h2>
+        </div>`
+    
+        content.appendChild(children)
+        children = document.createElement("div")
+
+        index++
+}
