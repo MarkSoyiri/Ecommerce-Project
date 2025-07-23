@@ -12,6 +12,7 @@
             align-items: center;
             justify-content: center;
             row-gap: 20px;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
         .form_box{
             /* border: 1px solid red; */
@@ -65,6 +66,44 @@
             column-gap: 10px;
             margin-bottom: 100px;
         }
+        .phone-row{
+           border: 1px solid rgb(187, 255, 0);
+           width: auto; 
+        }
+        .phone-box{
+            border: 1px solid black;
+            padding: 10px;
+            width: 700px;
+            display: flex;
+        }
+        .txt-area{
+            border: 1px solid blue;
+            width: auto;
+            display: flex;
+            flex-direction: column;
+            row-gap: 10px;
+            
+        }
+        .txt-area h2{
+            margin-top: 0px;
+            margin-bottom: 0px;
+            font-size: 20px;
+            font-weight: 400;
+
+        }
+        .phone-box img{
+            border: 1px solid orange;
+            width: 50%;
+            height: 70%;
+        }
+        span{
+            color: rgb(84, 84, 243);
+            font-size: 15px;
+        }
+        #opt{
+            color: black;
+            font-size: 18px;
+        }
     </style>
 </head>
 <body>
@@ -80,12 +119,24 @@
         </form>
     </div> -->
 
-        <div class="bigger-box"  id="content">
+        <!-- <div class="bigger-box"  id="content">
             <div class="big-box">
                 <img src="images/redbull.jpg" width="auto" height="50%">
                 <h2>Nike AIR</h2>
                 <h2>300</h2>
                 <h2>colour</h2>
+            </div>
+        </div> -->
+
+        <div class="phone-row" id="phone_row">
+            <div class="phone-box">
+                <img src="/images/ip16black.jpg">
+                <div class="txt-area">
+                    <h2>Apple iPhone 16, Space Black - Unlocked (Renewed)</h2>
+                    <span id="opt">Storage: <span>128GB 8gb</span></span>
+                    <h2><span id="opt">colour: </span>Black</h2>
+                    <h2><span id="opt">Price: </span>Ghc15,000</h2>
+                </div>
             </div>
         </div>
 
