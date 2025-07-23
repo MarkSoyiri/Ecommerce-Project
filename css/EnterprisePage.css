@@ -392,7 +392,7 @@ body{
             /* END OF THIRD PART */
             /* FORTH PART  */
 #forth{
-    background-color: rgb(0, 255, 242);
+    background-color: rgb(8, 245, 233);
     height: auto;
     position: relative;
 }
@@ -407,6 +407,7 @@ body{
     border-radius: 35px;
     margin-bottom: 10px;
     background-image: linear-gradient(rgb(116, 223, 189),rgb(193, 250, 194));
+    box-shadow: 0px 0px 2px 0.5px rgb(181, 179, 179);
 }
 #over-box h2{
     font-size: 35px;
@@ -423,6 +424,12 @@ body{
 }
 #forth-flotty{
     margin-top: 230px;
+}
+#forth-flotty p{
+    color: rgb(88, 88, 88);
+}
+#forth-flotty h3{
+    color: blueviolet;
 }
 .vid-box{
     border: 1px solid red;
@@ -621,3 +628,4 @@ footer{
     justify-content: center;
     align-items: center;
 }
+            /* END OF FOOTER */
