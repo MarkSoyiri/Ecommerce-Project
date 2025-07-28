@@ -1,5 +1,5 @@
 .solution_Menu{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 100%;
     height: auto;
     padding-left: 150px;
@@ -17,7 +17,7 @@
     display: flex;
 }
 .super{
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
     width: 350px;
     height: fit-content;
     display: flex;
@@ -48,7 +48,7 @@
     align-items: center;
 }
 .text_area{
-    border: 1px solid white;
+    /* border: 1px solid white; */
     width:fit-content;
     color: white;
     

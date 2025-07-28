@@ -34,7 +34,7 @@ let navy = document.getElementById('navy')
 
 
 navy.onclick = function(){
-    navy.classList.add('nav_back')
+    // navy.classList.add('nav_back')
 }
 
 
@@ -47,7 +47,7 @@ solution.onclick = function (){
     
     solution_dropdown.classList.toggle('drop')
     
-    console.log(navy.classList.toggle('nav_back'))
+    // console.log(navy.classList.toggle('nav_back'))
 }
 
 
@@ -63,7 +63,7 @@ resource.onclick = function (){
     whatsnew_dropdown.classList.remove('drop')
     resource_dropdown.classList.toggle('drop')
     
-    navy.classlist.toggle('navy_back')
+    // navy.classlist.toggle('navy_back')
 }
 
 let whatsnew = document.getElementById("whatsnew")

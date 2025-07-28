@@ -183,66 +183,192 @@ let Products = [
 // }
 
 
+// let Phoneshop = [
+//     {
+//         id:"1",
+//         image:"ip16black.jpg",
+//         name:"Apple iPhone 16, Space Black - Unlocked(Renewed)",
+//         storage:"256gb 8gb",
+//         colour:"Black",
+//         price:"Ghc15,000"
+//     },{
+//         id:"2",
+//         image:"ip15pink.jpg",
+//         name:"Apple iPhone 15 plus, Pink - Unlocked",
+//         storage:"256gb 8gb",
+//         colour:"Black",
+//         price:"Ghc13,000"
+//     },{
+//         id:"3",
+//         image:"ip14black.jpg",
+//         name:"Apple iPhone 14, Black - Refurbished",
+//         storage:"256gb 8gb",
+//         colour:"Black",
+//         price:"Ghc11,000"
+//     },{
+//         id:"4",
+//         image:"ip13promaxgreen.jpg",
+//         name:"Iphone 13 pro max,Titanium Green - Unlocked",
+//         storage:"256gb 8gb",
+//         colour:"Titanium Green",
+//         price:"Ghc9,000"
+//     },{
+//         id:"5",
+//         image:"ip12black.jpg",
+//         name:"Apple iPhone 12 Renewed ",
+//         storage:"256gb 8gb",
+//         colour:"Black",
+//         price:"Ghc7,000"
+//     }
+// ]
+
+// var phone_row = document.getElementById("phone_row");
+// let children = document.createElement("div")
+
+// for (let index = 0; index < Phoneshop.length; index++) {
+//     const phone = Phoneshop[index];
+//     children.onclick = func;
+//     children.id = phone.id
+//     children.innerHTML=`<div class="phone-box">
+//                 <img src="/images/${phone.image}" id="${phone.id}">
+//                 <div class="txt-area" ">
+//                     <h2 >${phone.name} </h2>
+//                     <span  class="opt">Storage: <span>${phone.storage}</span></span>
+//                     <h2 ><span class="opt">colour: </span>${phone.colour}</h2>
+//                     <h2  ><span class="opt">Price: </span>${phone.price}</h2>
+//                 </div>
+//             </div>`
+    
+//     phone_row.appendChild(children)
+//     children = document.createElement("div")
+// }
+// function func(id){
+//     alert(id.target.id)
+
+//     // Phoneshop.forEach(key => {
+//     //     let data = id;
+//     //     if (data = key.id) {
+//     //     //    alert(key.id)
+//     //        alert(key.name +" "+ key.price+" "+key.colour)
+//     //        break;
+
+            
+//     //     }
+//     // });
+
+//     for (let index = 0; index < Phoneshop.length; index++) {
+//         const sell = Phoneshop[index];
+//         let data = id.target.id;
+//         if (data === sell.id){
+//             return``
+//             alert("name"+sell.name);
+//             break;
+//         }
+//     }
+// }
+ 
+
+
 let Phoneshop = [
     {
-        id:"1",
-        image:"ip16black.jpg",
-        name:"Apple iPhone 16, Space Black - Unlocked(Renewed)",
-        storage:"256gb 8gb",
-        colour:"Black",
-        price:"Ghc15,000"
-    },{
-        id:"2",
-        image:"ip15pink.jpg",
-        name:"Apple iPhone 15 plus, Pink - Unlocked",
-        storage:"256gb 8gb",
-        colour:"Black",
-        price:"Ghc13,000"
-    },{
-        id:"3",
-        image:"ip14black.jpg",
-        name:"Apple iPhone 14, Black - Refurbished",
-        storage:"256gb 8gb",
-        colour:"Black",
-        price:"Ghc11,000"
-    },{
-        id:"4",
-        image:"ip13promaxgreen.jpg",
-        name:"Iphone 13 pro max,Titanium Green - Unlocked",
-        storage:"256gb 8gb",
-        colour:"Titanium Green",
-        price:"Ghc9,000"
-    },{
-        id:"5",
-        image:"ip12black.jpg",
-        name:"Apple iPhone 12 Renewed ",
-        storage:"256gb 8gb",
-        colour:"Black",
-        price:"Ghc7,000"
+        id: "1",
+        image: "ip16black.jpg",
+        name: "Apple iPhone 16, Space Black - Unlocked(Renewed)",
+        storage: "256gb 8gb",
+        colour: "Black",
+        price: "Ghc15,000"
+    },
+    {
+        id: "2",
+        image: "ip15pink.jpg",
+        name: "Apple iPhone 15 plus, Pink - Unlocked",
+        storage: "256gb 8gb",
+        colour: "Black",
+        price: "Ghc13,000"
+    },
+    {
+        id: "3",
+        image: "ip14black.jpg",
+        name: "Apple iPhone 14, Black - Refurbished",
+        storage: "256gb 8gb",
+        colour: "Black",
+        price: "Ghc11,000"
+    },
+    {
+        id: "4",
+        image: "ip13promaxgreen.jpg",
+        name: "Iphone 13 pro max,Titanium Green - Unlocked",
+        storage: "256gb 8gb",
+        colour: "Titanium Green",
+        price: "Ghc9,000"
+    },
+    {
+        id: "5",
+        image: "ip12black.jpg",
+        name: "Apple iPhone 12 Renewed ",
+        storage: "256gb 8gb",
+        colour: "Black",
+        price: "Ghc7,000"
     }
-]
+];
 
-var phone_row = document.getElementById("phone_row");
-let children = document.createElement("div")
+const phone_row = document.getElementById("phone_row");
 
 for (let index = 0; index < Phoneshop.length; index++) {
     const phone = Phoneshop[index];
-    children.onclick = func;
-    children.id = phone.name
-    children.innerHTML=`<div class="phone-box" >
-                <img src="/images/${phone.image}" id="${phone.id}">
-                <div class="txt-area">
-                    <h2 id="${phone.id}">${phone.name} </h2>
-                    <span id="${phone.id}" class="opt">Storage: <span>${phone.storage}</span></span>
-                    <h2><span class="opt">colour: </span>${phone.colour}</h2>
-                    <h2><span class="opt">Price: </span>${phone.price}</h2>
-                </div>
-            </div>`
+    const children = document.createElement("div");
+    children.id = phone.id;
+    children.innerHTML = `
+        <div class="phone-box">
+            <img src="/images/${phone.image}" id="${phone.id}">
+            <div class="txt-area">
+                <h2>${phone.name}</h2>
+                <span class="opt">Storage: <span>${phone.storage}</span></span>
+                <h2><span class="opt">Colour: </span>${phone.colour}</h2>
+                <h2><span class="opt">Price: </span>${phone.price}</h2>
+            </div>
+        </div>
+    `;
     
-    phone_row.appendChild(children)
-    children = document.createElement("div")
+    phone_row.appendChild(children);
+    children.onclick = func;
 }
-function func(id){
-    alert(id.target.id)
+
+
+function func(event) {
+    const clickedId = event.target.id;
+    console.log(typeof(clickedId))
+
+  let Data =  Phoneshop.find((sell)=>{
+     return clickedId !== sell.id 
+    })
+
+     let Data2 =  Phoneshop.find((sell)=>{
+         if (clickedId === sell.id) {
+            return sell.id;
+            
+        }
+    })
+
+    
+
+
+
+    console.log(Data);
+    //  console.log(Data2);
+  
+
+//    let Data2 = for (let index = 0; index < Phoneshop.length; index++) {
+//         const sell = Phoneshop[index];
+//         if (clickedId === sell.id) {
+//             return `Name: ${sell.name}\nPrice: ${sell.price}\nColour: ${sell.colour}`;
+//             break;
+//         }
+//     }
 }
- 
+
+
+
+
+
+
